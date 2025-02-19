@@ -4,7 +4,7 @@ A powerful command-line tool for scanning and documenting codebases, with specia
 
 ## Features
 
-- 📁 Generates comprehensive markdown documentation of your codebase structure
+- 📁 Generates comprehensive markdown documentation of your codebase structure, ready for use as context when prompting a LLM like ChatGPT or Claude
 - 🔍 Analyzes .NET solution and project files
 - 📝 Creates detailed source code documentation
 - 🎨 Beautiful console output with progress indicators
