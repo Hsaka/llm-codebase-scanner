@@ -1,0 +1,48 @@
+{
+  "name": "llm-codebase-scanner",
+  "version": "1.0.0",
+  "description": "A command-line tool for scanning and documenting codebases, with special support for .NET solutions",
+  "main": "index.js",
+  "bin": {
+    "llm-codebase-scanner": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "documentation",
+    "codebase",
+    "scanner",
+    "markdown",
+    "dotnet",
+    "solution",
+    "project",
+    "analysis",
+    "code-structure",
+    "development-tools",
+    "prompt-engineering"
+  ],
+  "author": {
+    "name": "Hsaka",
+    "email": "gamepyong@gmail.com",
+    "url": "http://gamepyong.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hsaka/llm-codebase-scanner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Hsaka/llm-codebase-scanner/issues"
+  },
+  "homepage": "https://github.com/Hsaka/llm-codebase-scanner#readme",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^13.1.0",
+    "picocolors": "^1.1.1",
+    "xml2js": "^0.6.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
